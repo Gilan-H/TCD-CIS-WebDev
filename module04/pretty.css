@@ -1,16 +1,14 @@
-body {
-  margin: 0;
-}
 
-ul{
-  list-style-type: square;
-}
-ul::marker{
-  list-style-type: square;
-  color: blue;
-}
 /*--------------------------------------------------------------
-
+selector {
+	layout(position)
+	
+	content(text)
+	
+	design(background)
+	
+	other(z-index)
+}
 ----------------------------------------------------------------
 >>> COLORS:	  
 ----------------------------------------------------------------
@@ -57,18 +55,50 @@ html * {
 /*--------------------------------------------------------------
 # Header Area
 --------------------------------------------------------------*/
-
-
+header {
+  background-color: pink;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 /*--------------------------------------------------------------
 # Content Area
 --------------------------------------------------------------*/
+main {
+  width: calc(70% - 1px);
+  margin: 0;
+  float: left;
+  padding: 1rem;
+  border-right: 1px dotted green;
+}
 
-
+ul{
+  list-style-type: square;
+}
+li::marker{
+  list-style-type: square;
+  color: green;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: orange;
+}
+a:visited{
+  color: black;
+}
+aside {
+  width: 30%;
+  float: right;
+}
 /*--------------------------------------------------------------
 # Footer Area
 --------------------------------------------------------------*/
-
-
+footer {
+  clear: left;
+  background-color: pink;
+  text-align: center;
+}
 /*--------------------------------------------------------------
 # Reusable Classes
 --------------------------------------------------------------*/
