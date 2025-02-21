@@ -75,7 +75,6 @@ ul{
   list-style-type: square;
 }
 li::marker{
-  list-style-type: square;
   color: green;
 }
 a:hover{
