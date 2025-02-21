@@ -90,7 +90,7 @@ aside {
   width: 30%;
   float: right;
 }
-aside img{
+img{
   transform: scale(.5);
 }
 /*--------------------------------------------------------------
