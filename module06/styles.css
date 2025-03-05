@@ -1,7 +1,7 @@
 figure {
   text-align: center;
 }
-figcaption{
+figcaption ::selection{
   color:#09ff09
   background:#ffc9a4
 }
